@@ -1,0 +1,32 @@
+.hero {
+	font-family: "Roboto", sans-serif;
+	h1 {
+		font-size: 36px;
+		color: $primaryColor;
+		margin-bottom: 30px;
+	}
+	h3 {
+		font-size: 30px;
+		margin-bottom: 30px;
+		font-weight: bold;
+	}
+}
+
+@media (max-width: 991px) {
+	.hero {
+		padding-top: 150px;
+	}
+}
+@media (max-width: 576px) {
+	.hero {
+		h3 {
+			font-size: 24px;
+		}
+		h1 {
+			font-size: 40px;
+		}
+	}
+	.order-btn {
+		padding: 5px 30px;
+	}
+}
