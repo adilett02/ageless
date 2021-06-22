@@ -45,6 +45,10 @@ h5 {
     background-color: $primaryColor;
     padding: 50px;
     color: $secondaryColor;
+    li {
+        margin-top: 5px;
+        list-style: inside;
+    }
     h5 {
         color: $secondaryColor;
     }
