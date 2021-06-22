@@ -11,7 +11,11 @@
 		font-weight: bold;
 	}
 }
-
+@media (max-width: 1200px) {
+	.hero img {
+		width: 100%;
+	}
+}
 @media (max-width: 991px) {
 	.section.hero {
 		padding-top: 150px;

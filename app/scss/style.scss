@@ -33,9 +33,20 @@ ul {
     left: 0;
     width: 100%;
     background: url(../img/main-bg.jpg) 50% 0 repeat-y;
+    // background-color: #000;
     background-position: center 0;
     background-size: cover;
     z-index: -1;
+    &::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: #000;
+        opacity: 0.5;
+    }
 }
 .top-effect {
     position: fixed;
