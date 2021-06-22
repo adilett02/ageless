@@ -58,9 +58,13 @@ h5 {
     padding: 20px 40px;
     // border-left: none;
 }
-.just {
-    width: 50px;
+.advantage {
     margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    img {
+        width: 50px;
+    }
 }
 // .recommendation-section {
 //     h4 {
@@ -108,4 +112,10 @@ h5 {
 @media (max-width: 768px) {
 }
 @media (max-width: 576px) {
+    .created-for {
+        padding: 30px 20px;
+    }
+    .order-btn {
+        padding: 2px 30px;
+    }
 }
